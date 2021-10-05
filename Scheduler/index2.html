@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><lable for="surname">surname</lable></h1>
+    <input id="surname" name="text-field" value="02943">
+    <h1><lable for="password">password</lable></h1>
+    <input id="password" type="password" name="password">
+    <h1><lable for="age">Age</lable></h1>
+    <input id="age" type="number" name="age" step="4">
+    <h1><lable for="volume">volume</lable></h1>
+    <input id="volume" type="range" min="0" max="100" name="volume" step="2">
+    <h1><lable for="pepperoni">Pizza Toppings:</lable></h1>
+    <label for="pepperoni">Pepperoni</label>
+    <input id="pepperoni" name="toppings" type="checkbox" value="pepperoni">
+    <label for="cheese">Cheese</label>
+    <input id="cheese" name="toppings" type="checkbox" value="cheese">
+
+    <div>
+        <h1>Gender:</h1>
+        <label for="female">female</label>
+        <input id="female" name="gender" type="radio" value="female">
+
+        <label for="male">male</label>
+        <input id="male" name="gender" type="radio" value="male">
+
+        <label for="non-binary">non-binary</label>
+        <input id="non-binary" name="gender" type="radio" value="non-binary">
+
+    </div>
+
+    <div>
+        <label for="options"><h1>Options</h1></label>
+        <select id="options" name="options">
+            <option value="1">Option1</option>
+            <option value="2">Option2</option>
+            <option value="3">Option3</option>
+            <option value="4">Option4</option>
+            <option value="5">Option5</option>
+        </select>
+    </div>
+    
+    <div>
+        <label for="comments"><h3>Post Comments</h3></label>
+        <textarea id="comments" name="comments" rows="3" cols="10">
+            
+        </textarea>
+    </div>
+
+    <div>
+        <label for="city"><h2>Cities</h2></label>
+        <input type="text" list="cities" id="city">
+        <datalist id="cities">
+            <option value="LA"></option>
+            <option value="Seoul"></option>
+            <option value="New York"></option>
+            <option value="London"></option>
+            <option value="New Jersey"></option>
+            <option value="Tokyo"></option>
+            <option value="Hanoi"></option>
+            <option value="Singapore"></option>
+            <option value="Beijing"></option>
+        </datalist>
+    </div>
+
+
+    
+
+    
+</body>
+</html>
