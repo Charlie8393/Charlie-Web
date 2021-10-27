@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order3</title>
+    <link href="order3.css" rel="stylesheet">
+</head>
+<body>
+    <body style="background: rgb(27, 223, 76);"></body>
+    <div id="deliver">Delivery information</div>
+    <hr>
+    <div id="name">Person who order: Charlie Sohn</div>
+    <div id="Address">Address: 73 Jamwon-dong, Seocho-gu</div>
+    <div id="Road">[Road name] Sinbanpo-ro, 23-gil, 41</div>
+    <div id="home">Room 205, 101 building</div>
+    <div id="phone">010-2182-3270</div>
+    <div id="change">Change</div>
+    <label id="number">Use the safe number</label>
+    <input id="number" name="phone" type="checkbox" value="number">
+    <div id="Requested">Requested term</div>
+    <div id="own">To the store owner</div>
+    <hr>
+    <lable for="ask"></lable>
+    <input id="ask" type="ask" name="ask">
+    <label id="use">I'll use it next time</label>
+    <input id="use" name="use" type="checkbox" value="use">
+    <div>
+        <label id="spoon">You don't have to give me disposable spoons and forks.</label>
+        <input id="spoon" name="spoon" type="radio" value="spoon">
+
+        <label id="fork">Please give disposable spoons and forks</label>
+        <input id="fork" name="fork" type="radio" value="fork">
+    
+    </div>
+    <div id="rider">Dear Rider</div>
+    <lable for="ride"></lable>
+    <input id="ride" type="ride" name="ride">
+    <label id="next">I'll use it next time</label>
+    <input id="next" name="next" type="checkbox" value="next">
+    <div id="pay">Payment method</div>
+    <label for="payment"></label>
+        <input type="text" list="payments" id="payment">
+        <datalist id="payments">
+            <option value="Credit/check card"></option>
+            <option value="Naver Pay"></option>
+            <option value="Kakao Pay"></option>
+            <option value="Toss"></option>
+            <option value="We meet and pay by credit card"></option>
+            <option value="We meet and pay in cash"></option>
+        </datalist>
+</body>
+</html>
