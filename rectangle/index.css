@@ -1,0 +1,76 @@
+#desk{
+    position:relative;
+    top: 0px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+}
+#phone{
+    position:relative;
+    top: 0px;
+    left: 250px;
+    width: 300px;
+    height: 300px;
+}
+#tablet{
+    position:relative;
+    top: 0px;
+    left: 450px;
+    width: 300px;
+    height: 300px;
+}
+#desk2{
+    background-color: rgb(255, 78, 47);
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size: xx-large;
+    position:relative;
+    top: 0px;
+    left: 50px;
+}
+#phone2{
+    background-color: rgb(255, 78, 47);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: xx-large;
+    position:relative;
+    top: 0px;
+    left: 250px;
+}
+#tablet2{
+    background-color: rgb(255, 78, 47);
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size: xx-large;
+    position:relative;
+    top: 0px;
+    left: 450px;
+}
+
+
+#container {
+    display: flex;
+}
+#desk3{
+    font-size: x-large;
+    position:relative;
+    top: -200px;
+    left: 50px;
+
+}
+#phone3{
+    font-size: x-large;
+    position:relative;
+    top: -200px;
+    left: 250px;
+
+}
+#tablet3{
+    font-size: x-large;
+    position:relative;
+    top: -200px;
+    left: 450px;
+}
