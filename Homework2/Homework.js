@@ -3,7 +3,7 @@ let raceNumber = Math.floor((Math.random()*1000));
 // indicates whether a runner registered early or not.
 let register = true;
 // runner’s age and set it equal to a number.
-let age = 20;
+let age = 26;
 
 // checks whether the runner is an adult and registered early.
 if (age > 18 && register === true){
