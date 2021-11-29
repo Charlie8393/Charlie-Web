@@ -18,13 +18,17 @@ console.log(circle);
 // It will take two numbers as  arguments and Return true if the sum of both numbers is less than 100.
 // If one of them is high than 100, it will return false.
 function lessThan(num1,num2){
-    yes = num1 < 100 && num2 <100;
-    return yes;
+    if(num1 + num2 <100){
+        return true;
+    } else{
+        return false;
+    }
 }
 let less = lessThan(22,15);
-less = lessThan(32,394);
+less = lessThan(101,32);
 console.log(less);
-
+// Create a function that determines if the year is a leap year or not
+// # A leap year happens every four years therefore a year is divisible by four
 function leapyear(num){
     leap = num % 4 === 0;
     return leap;
@@ -32,6 +36,8 @@ function leapyear(num){
 let year = leapyear(2020);
 console.log(year);
 
+// Create a function that takes two arguments as integers
+// Return true if one of them is 10 or their sum is 10
 function ten(one,two){
     if(one + two === 10){
         return true;
