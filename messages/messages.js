@@ -52,5 +52,5 @@ if(part2.length > 2){
     part[part.length-1] = "UPDATED";
     console.log(part);
 } else{
-    console.log(part.pop());
+    part.pop();
 }
