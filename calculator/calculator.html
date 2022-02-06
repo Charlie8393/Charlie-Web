@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "top">
+        <h1 style="text-align: center;">Calculator</h1>
+    </div>
+    <br>
+    <p id="one">Enter first value</p>
+    <br>
+    <input type="text" id="name">
+    <br>
+    <p id="two">Enter Second value</p>
+    <br>
+    <input type="text" id="name2">
+    <br>
+    <br>
+    <input type="button" value="Result" id="button" onclick="func()">
+    <br>
+    <br>
+    <textarea id="name3"></textarea>
+    <script>
+        function func(){
+        let a = Number(document.getElementById("name").value);
+        let b = Number(document.getElementById("name2").value);
+        let c = a+b;
+        document.getElementById("name3").innerHTML = c;
+    }
+    </script>
+</body>
+</html> 
