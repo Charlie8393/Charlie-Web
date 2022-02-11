@@ -1,0 +1,31 @@
+#top{
+    color: blue;
+    font-size:48px;
+}
+#number{
+    color: black;
+    position:relative;
+    top: 0;
+    left: 700;
+}
+#down{
+    background-color: brown;
+    position: relative;
+    top: 0;
+    left: 620;
+    font-size:30px;
+}
+#up{
+    background-color: brown;
+    position: relative;
+    top: 0;
+    left: 630;
+    font-size:30px;
+}
+#reset{
+    background-color: coral;
+    position: relative;
+    top: 50;
+    left: 520;
+    font-size:30px;
+}

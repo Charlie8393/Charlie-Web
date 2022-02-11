@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link href="counter.css" rel="stylesheet">
+</head>
+<body>
+    <div id = "top">
+        <h1 style="text-align: center;">Counter</h1>
+        <div id="number">0</div>
+    </div>
+    <div>
+        <input type="button" value="down" id="down" onclick="decrease()">
+        <input type="button" value="up" id="up" onclick="increase()">
+        <input type="button" value="reset" id="reset" onclick="reset()">
+    </div>
+    <script>
+        function decrease() {
+            let subtract = Number(document.getElementById("number").textContent) - 1;
+            document.getElementById("number").innerHTML = subtract;
+
+            if (subtract < 0) {
+                document.getElementById("number").style.color = "red";
+            }
+        }
+        function increase(){
+            let addition = Number(document.getElementById("number").textContent) + 1;
+            document.getElementById("number").innerHTML = addition;
+            if(addition >0){
+                document.getElementById("number").style.color = "Green";
+            }
+            
+        }
+        function reset(){
+            let reset = (number = 0);
+            document.getElementById("number").innerHTML = reset;
+        }
+    </script>
+</body>
+</html>
